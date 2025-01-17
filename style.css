@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-container__item {
+    border: solid black 2px;
+    display: inline-block;
+    width: 250px;
+    height: 580px;
+    margin-top: 20px;
+}
+
+.menu-container__item button {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.menu-container__item button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+
+
+
+}
+
+.footer-container h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-container table {
+    margin: auto;
+
+}
+
+.footer-container__table input {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+
+}
+
+.footer-container__send {
+    width: 35%;
+    background-color: greenyellow;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 400px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.footer-container__send:hover {
+    background-color: green;
+    color: white;
+}
+
+.footer-container__table input:focus
+{
+    /*outline: 2px solid blue;*/
+    outline: solid skyblue 2px;
+    
+    
+}
